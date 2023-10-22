@@ -238,10 +238,20 @@ table tr.even td {
     }
 }
 
+.game {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: block;
+}
+
+
 .listA img {
     width: 200px;
     flex: 1;
-    margin: 10px;
+    margin: 5px;
     border: solid 1px #ddd;
     border-radius: 5px;
     color: inherit;
@@ -259,6 +269,7 @@ table tr.even td {
 button {
     font-family: 'Yusei Magic', sans-serif;
 }
+
 
 .coming-soon {
     position: relative;
@@ -421,6 +432,8 @@ button {
             font-size: 105%;
         }
     }
+
+   
 
     .coming-soon {
         font-size: 200%;
